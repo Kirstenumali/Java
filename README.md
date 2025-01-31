@@ -7,7 +7,7 @@ To execute JRE to class
 javac Welcome.java
 ```
 
-Tp eceute the class in J
+To eceute the class from Javac
 ``` bash
 java Welcome
 ```
