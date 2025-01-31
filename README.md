@@ -11,6 +11,11 @@ To eceute the class from Javac
 ``` bash
 java Welcome
 ```
+Use CMD
+To ensure the version of your application
+``` bash
+java -version
+```
 
 Ensure that it is capital letters.
 This is an example of executable code in Java
