@@ -34,7 +34,7 @@ public static void main(String[] args) {
 
 
 
-**Java Memory Management: Garbage Collection, JVM Tuning, and Spotting Memory Leaks**
+**Java Memory Management: Garbage Collection, JVM Tuning, and Spotting Memory Leaks (Garbage Collector)**
 ``` bash
 java Example
 java -Xmx1024m Example
