@@ -40,6 +40,7 @@ java Example
 java -Xmx1024m Example
 java -Xmx10m Example
 java -XX:MaxNewSzie=128m Example
+java -XX:MaxMetaSpaceSize=4 Example
 ```
 ``` bash
 package com.enrollmentsystem.pro;
