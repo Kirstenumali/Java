@@ -28,3 +28,37 @@ public static void main(String[] args) {
 }
 ```
 
+
+
+
+
+
+
+**Java Memory Management: Garbage Collection, JVM Tuning, and Spotting Memory Leaks**
+``` bash
+java Example
+java -Xmx1024m Example
+java -Xmx10m Example
+java -XX:MaxNewSzie=128m Example
+```
+``` bash
+package com.enrollmentsystem.pro;
+
+import java.util.ArrayList;
+
+public class Example {
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<Integer>();
+        int i = 0;
+        while(true) {
+            list.add(Integer.valueOf(3));
+            if (i>1000) {
+                list = new ArrayList<>();
+                i =0;
+            }
+            i++;
+        }
+    }
+}
+```
+
